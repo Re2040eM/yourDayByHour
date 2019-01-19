@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_cal"
+            android:icon="@drawable/cland"
+            android:title="التقويم" />
+        <item
+            android:id="@+id/nav_table"
+            android:icon="@drawable/table"
+            android:title="جدولك اليومي" />
+        <item
+            android:id="@+id/nav_share"
+            android:icon="@drawable/ic_menu_share"
+            android:title="مشاركة" />
+
+        <item
+            android:id="@+id/nav_idea"
+            android:icon="@drawable/ldea"
+            android:title="فكرة التطبيق" />
+
+        <item
+            android:id="@+id/nav_learn"
+            android:icon="@drawable/hint"
+            android:title="إرشادات" />
+
+        <item
+            android:id="@+id/nav_tg"
+            android:icon="@drawable/tg"
+            android:title="تقييم التطبيق" />
+
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/about"
+                android:title="من نحن" />
+            <item
+                android:id="@+id/nav_help"
+                android:icon="@drawable/help"
+                android:title="مساعدة" />
+
+        <item
+            android:id="@+id/nav_send"
+            android:icon="@drawable/proo"
+            android:title="اقتراح وتطوير" />
+
+        <item
+            android:id="@+id/nav_exit"
+            android:icon="@drawable/close"
+            android:title="إغلاق" />
+    </group>
+
+
+</menu>
